@@ -1,0 +1,124 @@
+body{
+	background:url(../img/1.png) repeat-x;
+	height: 2000px;
+}
+.w{
+	width: 940px; /* 网站大小*/
+	margin: 0 auto;
+}
+.header{
+	/*background-color: aquamarine;*/
+	padding-top: 37px;  /* 上边距设为37*/
+	padding-bottom:46px ;/* 下边距设为37*/
+}
+.logo{
+	margin-left: 15px;/* logo外边距*/
+}
+.nav{
+	float: right;
+	margin-top: 22px;
+}
+.nav li{
+	float: left;
+	padding: 0 10px 10px;
+	border-left: 1px #B7B7B7 solid;
+}
+.nav a{
+	font: bold 14px georgia;
+	color: #666;
+	text-decoration: none;
+}
+.nav a:hover{
+	color:#a1a1a1;
+	text-decoration: underline;
+}
+
+.nav p{
+	font:  11px tahoma;
+	color: #b7b7b7;
+}
+
+.banner{
+	height: 356px;
+	position: relative;
+}
+
+.point{
+	position: absolute;
+	top: 508px;
+	left: 15px;
+}
+.point a{
+	width: 17px;
+	height:17px;
+	float: left;
+	margin-left: 4px;
+	background:url(../img/heidian.png) no-repeat;
+	
+}
+.point .active{
+	background: url(../img/landian.png) no-repeat;
+}
+.point a:hover{
+	background: url(../img/landian.png) no-repeat;
+}
+
+/* content*/
+
+.content h1{
+	text-align: center;
+	font:24px  bold georgia;
+	/* background-color: skyblue;*/
+	padding-top:200px ;
+	margin-bottom: 38px;
+}
+.y
+{
+	width: 300px;
+	float: left;
+}
+.cs{
+	margin: 0 20px;
+}
+
+.content h2{
+	color: skyblue;
+	font: 21px georgia;
+}
+
+.content.p1{
+	color: #8c8c8c;
+	font: 12px helvetica;
+}
+
+.content .imgdiv{
+	width: 299px;
+	height: 190px ;
+	background: url(../img/beijing.png) no-repeat ;
+	margin: 16px 0px 10px 0px;
+	text-align: center;/* content*/
+	padding-top: 12px;
+}
+
+.content.p2{
+	height: 92px;
+	color: #3e3e3e;
+	font: black;
+}
+
+.content{
+	background-color: red;
+	height: 640px;
+}
+
+.content.lm{
+	display: block;
+	width: 163px;
+	height: 40px
+	background:url(../img/lm.png) no-repeat;
+	text-decoration: none;
+    color:red;
+	font:12px/40px helvetica;
+	margin-bottom:80px;
+}
+
