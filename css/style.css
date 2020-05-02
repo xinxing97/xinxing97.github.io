@@ -2,6 +2,8 @@
 body {
     font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
     color: #333; 
+	margin-left: auto;
+	height: 2500px;
 }
 
 .topbar{
@@ -90,6 +92,7 @@ color: #fff;
 	width: 850px;
 	height: 100px;
 	margin-top: 0px;
+	position: relative;
 }
 
 .header .site-list ul{
@@ -257,8 +260,8 @@ color: #fff;
 	
 	width: 234px;
 	height: 460px;
-	top:137px ;
-	left:114px ;
+	top:100px ;
+	left:0px ;
 	background-color: rgba(0,0,0,0.4);
 	position: absolute;
 }
@@ -411,7 +414,6 @@ float: left;
 
 
 .container  .content-banner img{
-	
  max-height:460px; 
  max-width:1226px; 
  width:expression(this.width > 1226 && this.height < this.width ? 1226: true); 
@@ -419,7 +421,7 @@ float: left;
 	 float: right;
 	 padding-top: 40px;
 	 padding-bottom: 40px;
-	 margin-right: 22px;
+	 margin-right: 0px;
 	 
 }
 
@@ -628,35 +630,60 @@ float: left;
 
 
 .page-foot {
-	position: absolute;
+	/*position: absolute;*/
 	height: 240px;
-	width: 1026px;
-	top: 2100px;
-	left: 8%;
-	background-color: #fafafa;
-	padding: 40px 100px 40px 100px;
+	width: 1226px;
+	/*margin-top: 2100px;*/
+	/*left: 8%;*/
+	margin:1650px auto 0px auto;
+	
+	
+	/*padding: 40px 100px 40px 100px;*/
+	/*padding-top: 1600px;*/
 }
 
-
+.containerfoot{
+	height: 280px;
+	width: 100%;
+	background-color: #fafafa;
+}
 
 .rightfoot
 {
+	
 	float: right;
+	margin-top: 28px;
+	margin-right: 5%;
+	/*position: absolute;
+	
+	top:75px ;
+	right:40px ;
+	height: 240px;
+	width: 400px;
+	padding-right: 0px;*/
 }
 .leftfoot
 {
-	width:600px;
+	/*width:0px;*/
+	float: left;
+	margin-left: 5%;
 }
 
 .one{
 	height:80px ;
 	width: 600px;
 }
-
+.footer-logo-box
+{
+	float: left;
+}
 .footer-text-box{
-	position: absolute;
+	/*position: absolute;
 	left:180px ;
-	top:50px ;
+	top:50px ;*/
+	float: right;
+	padding-right: 70%;
+	margin-top: 10px;
 }
 
 .two{
@@ -683,15 +710,7 @@ float: left;
 	margin-top: 30px;
 }
 
-.rightfoot{
-	position: absolute;
-	
-	top:75px ;
-	right:40px ;
-	height: 240px;
-	width: 400px;
-	padding-right: 0px;
-}
+
 
 .rightfoot .footer-qrcode-box{
 	float: left;
