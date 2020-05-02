@@ -175,16 +175,17 @@ color: #fff;
 .site-list .pop
 {
 	position: absolute;
-	width: 100%;
+	width: 1226px;
 	height: 250px;
 	background-color: white;
 	left:0px;
-	top:137px;
+	top:100px;
 	
 	box-shadow:0 3px 4px rgba(0,0,0,0.18) ;
 	border-top: 1px solid #e0e0e0;
 	display: none;
 }
+
 .site-category .down-ul
 {
 	/*overflow: hidden;*/
