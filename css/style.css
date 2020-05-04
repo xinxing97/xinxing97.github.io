@@ -519,10 +519,10 @@ float: left;
 		display: block;
 	}
 	.box-bd .row-r ul li .figure a img{
-		
 		width: 160px;
 		height: 160px;
 	}
+	
 .box-bd .row-r ul li .title{
 	text-decoration:none;
 			font-size: 16px;
@@ -594,16 +594,14 @@ float: left;
 	padding-bottom: 40px;
 	overflow: hidden;
 	height: 180px;
-
 	padding-top: 20px;
 }
 .pop-li img{
-	
+	width: 280px;
 	height: 180px;
 	float: left;
 	margin-top: 0px;
 	margin-right: 16px;
-	
 }
 .pop-li p{
 	
